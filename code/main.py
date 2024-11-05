@@ -1,4 +1,5 @@
 from settings import *
+from player import Player
 
 class Game:
     def __init__(self):
@@ -8,6 +9,11 @@ class Game:
         self.clock = pygame.time.Clock()
         self.running = True
         
+        # groups
+        self.all_sprites = pygame.sprite.Group()
+
+        # sprites
+        self.player = Player((400, 300), self.all_sprites)
 
     def run(self):
         while self.running:
@@ -19,7 +25,9 @@ class Game:
                     self.running = False
             # update
 
+
             # draw sprites
+            self.all_sprites.draw(self.display_surface)
             pygame.display.update()
         
         pygame.quit()
