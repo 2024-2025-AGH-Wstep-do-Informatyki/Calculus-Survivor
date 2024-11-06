@@ -24,9 +24,10 @@ class Game:
                 if event.type == pygame.QUIT:
                     self.running = False
             # update
-
+            self.all_sprites.update(dt)
 
             # draw sprites
+            self.display_surface.fill('black')
             self.all_sprites.draw(self.display_surface)
             pygame.display.update()
         
