@@ -38,7 +38,6 @@ Follow these steps to set up and run Calculus-Survivor on your machine:
     While installing remember to mark "Add Python to Path" box
     To install pip follow steps here: https://phoenixnap.com/kb/install-pip-windows
     To install pygame-ce run following command in cmd:
-    ```bash
 2. **Install Git**
     Go to https://git-scm.com/downloads/win and download the newest version of GIT, install it with default settings
     
