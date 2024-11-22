@@ -49,3 +49,12 @@ Follow these steps to set up and run Calculus-Survivor on your machine:
     To clone our repository run the following command in cmd:
     ```bash
    git clone https://github.com/2024-2025-AGH-Wstep-do-Informatyki/Calculus-Survivor.git
+4. **Play the game!**
+
+If all those stuffs are done:
+
+- [X] Install Python
+- [X] Install Git
+- [X] Clone the Repository
+      
+Have fun with the game!
