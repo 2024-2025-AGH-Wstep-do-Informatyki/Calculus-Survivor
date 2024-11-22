@@ -41,7 +41,7 @@ Follow these steps to set up and run Calculus-Survivor on your machine:
 2. **Install Git**
     Go to https://git-scm.com/downloads/win and download the newest version of GIT, install it with default settings
     
-3. **Clone the Repository** 
+4. **Clone the Repository** 
     To clone our repository run following commands in cmd:
     ```bash
    git clone https://github.com/2024-2025-AGH-Wstep-do-Informatyki/Calculus-Survivor.git
