@@ -33,6 +33,7 @@ Before running the game, ensure you have the following installed on your system:
 
 Follow these steps to set up and run Calculus-Survivor on your machine:
 1. **Install Python**
+   
     Go to Python.org and download newest version of Python installer. 
     While installing remember to mark "Add Python to Path" box
     To install pip follow steps here: https://phoenixnap.com/kb/install-pip-windows
@@ -43,7 +44,8 @@ Follow these steps to set up and run Calculus-Survivor on your machine:
    
     Go to https://git-scm.com/downloads/win and download the newest version of GIT, install it with default settings
     
-5. **Clone the Repository** 
+5. **Clone the Repository**
+   
     To clone our repository run following commands in cmd:
     ```bash
    git clone https://github.com/2024-2025-AGH-Wstep-do-Informatyki/Calculus-Survivor.git
