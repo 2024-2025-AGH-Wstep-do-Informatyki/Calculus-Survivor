@@ -27,7 +27,8 @@ class Game:
             Sprite((x*64 , y*64), image, self.all_sprites)
         for obj in map.get_layer_by_name('Objects'):
             CollisionSprite((obj.x, obj.y), obj.image, (self.all_sprites, self.collision_sprites))
-
+        for obj in map.get_layer_by_name('Collisions'):
+	        CollisionSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)), self.collision_sprites)
 
 
     def run(self):
