@@ -33,10 +33,11 @@ class Player(pygame.sprite.Sprite):
                     if self.direction.x < 0:
                         self.hitbox_rect.left = sprite.rect.right
                 if direction == 'vertical':
-                    if self.direction.y < 0: 
-                        self.hitbox_rect.top = sprite.rect.bottom
                     if self.direction.y > 0:
                         self.hitbox_rect.bottom = sprite.rect.top
+                    if self.direction.y < 0: 
+                        self.hitbox_rect.top = sprite.rect.bottom
+                    
 
     def update(self, dt):
         self.input()
