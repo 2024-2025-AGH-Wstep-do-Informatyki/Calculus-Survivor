@@ -30,7 +30,6 @@ class Game:
         for obj in map.get_layer_by_name('Collisions'):
 	        CollisionSprite((obj.x, obj.y), pygame.Surface((obj.width, obj.height)), self.collision_sprites)
 
-
     def run(self):
         while self.running:
             # dt
