@@ -19,7 +19,7 @@ class Game:
         self.setup()
         
         # sprites
-        self.player = Player((300, 300), self.all_sprites, self.collision_sprites)
+        self.player = Player((500, 300), self.all_sprites, self.collision_sprites)
 
     def setup(self):
         map = load_pygame(join('data', 'maps', 'world.tmx'))
